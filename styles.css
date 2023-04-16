@@ -1,0 +1,35 @@
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#image {
+    width: 75%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+p, ul {
+    color: gray;
+    font-family: monospace;
+    font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: x-large;
+    }
+  }
+
+  img {
+    display: block;
+}
+
+h2 {
+    color: gray;
+}
